@@ -16,6 +16,6 @@ arr1=create_matrix(1)
 arr2=create_matrix(2)
 if(arr1.shape==arr2.shape):
      print("/n dot product")
-    print(np.dot(arr1,arr2))
+     print(np.dot(arr1,arr2))
 else:
     print("/n dimensions not matching!")
